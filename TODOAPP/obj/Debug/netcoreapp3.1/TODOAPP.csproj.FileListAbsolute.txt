@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.exe
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.deps.json
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.runtimeconfig.json
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.runtimeconfig.dev.json
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.dll
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\bin\Debug\netcoreapp3.1\TODOAPP.pdb
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.AssemblyInfo.cs
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.dll
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.pdb
+C:\Users\hp\Desktop\CSharp\TODOAPP\TODOAPP\obj\Debug\netcoreapp3.1\TODOAPP.genruntimeconfig.cache
