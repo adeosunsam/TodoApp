@@ -25,6 +25,12 @@ namespace TODOAPP
                 Console.WriteLine($"{item.SerialNumber} {item.Item} {(item.IsDone ? "Done" : "Undone")}");
             }
         }
+        public void MarkDone(int Num)
+        {
+            TodoItem newTodo = StoringTodoItem.Find(i => i.SerialNumber == Num);
+            if (newTodo == null) Console.WriteLine("SerialNumber not Found");
+            newTodo.IsDone = true;
+        }
 
         public void RemoveItem(int ById)
         {
