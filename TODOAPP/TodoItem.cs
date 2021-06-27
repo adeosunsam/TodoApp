@@ -15,9 +15,5 @@ namespace TODOAPP
             this.SerialNumber = SerialNumber;
             this.Item = Item;
         }
-
-        public TodoItem()
-        {
-        }
     }
 }
