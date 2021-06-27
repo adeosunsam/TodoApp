@@ -7,14 +7,14 @@ namespace TODOAPP
         static void Main(string[] args)
         {
             TodoApp ImportTodoClass = new TodoApp();
-            Console.Write("Enter 1 to start and anynumber to exit ");
-            int x = int.Parse(Console.ReadLine());
-            while (x == 1)
+            Console.Write("Enter 1 to start and anynumber to exit:  ");
+            int Start = int.Parse(Console.ReadLine());
+            while (Start == 1)
             {
                 Console.WriteLine();
-                Console.Write("Enter 1 to Continue: ");
-                int y = int.Parse(Console.ReadLine());
-                if (y == 1)
+                Console.Write("Do you wish to Continue [y/n]: ");
+                string y = Console.ReadLine();
+                if (y == "y" || y == "Y")
                 {
                     Console.Clear();
                     Console.WriteLine("1 to Add item");
@@ -54,6 +54,8 @@ namespace TODOAPP
                     else
                         break;
                 }
+                else if (y == "n" || y == "N") break;
+                continue;
             }
         }
     }   
