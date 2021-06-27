@@ -34,15 +34,21 @@ namespace TODOAPP
         public void MarkDone(int Num)
         {
             TodoItem newTodo = StoringTodoItem.Find(i => i.SerialNumber == Num);
-            if (newTodo == null) Console.WriteLine("SerialNumber not Found");
-            newTodo.IsDone = true;
+            try
+            {
+                newTodo.IsDone = true;
+            }
+            catch
+            {
+                Console.WriteLine("SerialNumber not Found");
+            }
         }
 
         public void RemoveItem(int ById)
         {
             TodoItem foundItem = StoringTodoItem.Find(i => i.SerialNumber == ById);
             if (foundItem == null) Console.WriteLine("Serial Not Found");
-            Console.WriteLine (StoringTodoItem.Remove(foundItem));
+            StoringTodoItem.Remove(foundItem);
         }
     }
     
